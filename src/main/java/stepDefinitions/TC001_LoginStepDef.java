@@ -12,6 +12,7 @@ public class TC001_LoginStepDef {
 	@Given("user is on home page")
 	public void user_is_on_home_page() {
 	    System.out.println("Launch Browser and enter url");
+	    System.out.println("Class is modified...");
 	}
 	@When("user clicks on signin link")
 	public void user_clicks_on_signin_link() {
